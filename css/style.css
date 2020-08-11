@@ -231,3 +231,150 @@ img {
 .call-to-action p {
     margin-bottom: 40px;
 }
+
+/* Portfólio */
+
+.portfolio {
+    width: 100%;
+    background: black;
+    padding: 40px 0;
+}
+
+.portfolio .sub-titulo{
+    color: #fec63e;
+}
+
+.portfolio .sub-titulo::after{
+    background: #fec63e;
+}
+
+.portfolio .call-to-action p{
+    color: white;
+}
+
+.portfolio-lista li:last-child{
+    margin-top: 20px;
+}
+
+/* Qualidade */
+
+.qualidade {
+    padding: 60px 0;
+}
+
+.qualidade::after {
+    content: "";
+    width: 634px;
+    height: 83px;
+    display: block;
+    background: url("../img/linhas.svg") no-repeat center;
+    position: absolute;
+    top: 209px;
+    right: 162px;
+    z-index: -1;
+}
+
+.qualidade-lista {
+    padding-top: 20px ;
+}
+
+.qualidade img {
+    margin: 0 auto;
+}
+
+.qualidade-lista li {
+    text-align: center;
+    padding: 0 40px;
+}
+
+.qualidade-lista li h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 20px;
+}
+
+.qualidade-lista li h3::after {
+    content:"" ;
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: black;
+    margin: 6px auto;
+}
+
+/* Quebra */
+.quebra{
+    width: 100%;
+    height: 220px;
+    background: url(../img/bg-footer.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.quebra .quote-externo{
+    max-width: 370px;
+
+}
+
+
+/* Footer */
+
+.footer {
+	width: 100%;
+	background: #000;
+	color: #fff;
+	padding: 20px 0;
+}
+
+.footer h3 {
+	font-size: 18px;
+	line-height: 25px;
+	color: #fec63e;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-weight: bold;
+}
+
+.footer h3:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #fec63e;
+	margin: 6px 0 12px 0;
+}
+
+.footer-historia {
+	padding-right: 40px;
+}
+
+.footer-contato ul li {
+	font-size: 14px;
+	line-height: 20px;
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+.footer-contatos ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.footer-contatos ul li a {
+	border: 3px solid #fec63e;
+	display: block;
+	padding: 10px;
+}
+
+.footer-contatos ul li a:hover {
+	border-color: #fff;
+}
+
+.copy {
+    width: 100%;
+    background-color: #fec63e;
+    padding: 20px 0;
+}
