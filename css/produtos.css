@@ -129,6 +129,14 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.form input:hover {
+    border-color: white;
+}
+
+.form textarea:hover{
+    border-color: white;
+}
+
 .form button {
     padding: 7px 40px;
     background: none;
