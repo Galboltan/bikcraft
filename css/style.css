@@ -12,6 +12,7 @@ p{
 
 img {
     display: block;
+    max-width: 100%;
 }
 
 .btn {
@@ -192,6 +193,10 @@ img {
 .produtos-listas li {
     background: #fec63e;
     text-align: center;
+}
+
+.produtos-listas li img {
+    margin: 0 auto;
 }
 
 .produtos-listas li h3 {
